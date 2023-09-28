@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="wisata.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="wisata-data.css">
+        <title>Data Pengunjung Wisata Dieng Wonosobo</title>
+        </head>
+        <body>
+            <nav>
+                <div class="wrapper">
+                    <div class="logo"><a href="index.html">Destinasi Wisata di Dunia</a></div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="DESTINATIONS.html">Explore</a></li>
+                            <li><a href="GALLERY.html">Gallery</a></li>
+                            <li><a href="ABOUT.html">About</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </nav>
+                <br>
+                <p>
+                    Berikut ini jumlah pengunjung website 'Destinasi Wisata di Dunia':
+                </p>
+                <br>
+                <div>
+                    <canvas id="myChart"></canvas>
+                  </div>
+                  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                   <script>
+                    const ctx = document.getElementById('myChart');
+                  
+                    new Chart(ctx, {
+                      type: 'bar',
+                      data: {
+                        labels: ['Pekan ke-1', 'Pekan ke-2', 'Pekan ke-3', 'Pekan ke-4'],
+                        datasets: [{
+                          label: 'Jumlah Pengunjung Website Pekan 1 - 4',
+                          data: [12, 19, 14, 16],
+                          backgroundColor: [
+                          'rgba(255, 99, 132, 0.2)',
+	                      'rgba(54, 162, 235, 0.2)',
+	                      'rgba(255, 206, 86, 0.2)',
+	                      'rgba(75, 192, 192, 0.2)',
+                          ],
+                          borderColor: [
+	                        'rgba(255,99,132,1)',
+	                        'rgba(54, 162, 235, 1)',
+	                        'rgba(255, 206, 86, 1)',
+	                        'rgba(75, 192, 192, 1)',
+                          ],
+                          borderWidth: 1
+                        }]
+                      },
+                      options: {
+                        scales: {
+                          y: {
+                            beginAtZero: true
+                          }
+                        }
+                      }
+                    });
+                  </script>
+                </body>
+</html>
+        

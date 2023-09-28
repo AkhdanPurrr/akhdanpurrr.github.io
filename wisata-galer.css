@@ -1,0 +1,117 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+.main {
+    flex: 30%;
+    background-color: aqua;
+    padding: 20px;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 48px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue
+}
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background-image: url(tempat-wisata.jpg);
+    background-size: cover;
+  }
+
+.header h1 {
+    font-size: 40px;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    font-family: 'Segoe UI';
+    color: #f1f1f1;
+    font-size: 28px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    transition: 0.3s;
+    opacity: 0.6;
+}
+
+.button:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+.button:active {
+    color: #f1f1f1;
+    background-color: aqua;
+}
+
