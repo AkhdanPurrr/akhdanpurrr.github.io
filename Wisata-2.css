@@ -31,7 +31,6 @@ body {
 
 .menu {
     float: right;
-
 }
 
 nav {
@@ -43,6 +42,8 @@ nav {
     position: -webkit-sticky;
     top: 0;
     background: white;
+    z-index: 1;
+    border: 1px solid #364f6b;
 }
 
 nav ul {
@@ -115,11 +116,28 @@ nav ul li a:hover {
     background-color: aqua;
 }
 
-#clock {
-    font-size: 35px;
-    width: 250px;
-    margin: 30px;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 20px;
+
+@media screen and (max-width: 991.98px) {
+ .wrapper {width: 90%;
 }
+ .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+ }
+ nav .menu {
+    width: 100%;
+    margin: 0;
+}
+ nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+}
+ nav .menu ul li {
+    display: inline-block;
+    float: none;
+ }
+}
+    
+
