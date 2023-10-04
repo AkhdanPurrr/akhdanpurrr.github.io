@@ -139,11 +139,15 @@ nav ul li a:hover {
     float: none;
  }
  .main {
-    width: 100%;
+    display: block;
  }
- .vid {
-    width: 100%;
+ .main vid {
+    display: block;
  }
+
+.main img {
+    display: block;
+}
 }
     
 
