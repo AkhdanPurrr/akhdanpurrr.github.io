@@ -133,5 +133,11 @@ nav ul li a:hover {
     nav .menu ul li {
        display: inline-block;
        float: none;
+    } 
+    .main {
+        display: block;
+    }
+    .main img {
+        display: block;
     }
 }

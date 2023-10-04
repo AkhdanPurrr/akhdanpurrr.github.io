@@ -134,4 +134,10 @@ nav ul li a:hover {
        display: inline-block;
        float: none;
     }
+    .main {
+        display: block;
+    }
+    .main img {
+        display: block;
+    }
 }
