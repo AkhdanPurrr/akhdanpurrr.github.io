@@ -39,8 +39,11 @@ nav {
     display: flex;
     line-height: 80px;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background: white;
+    z-index: 1;
+    border: 1px solid #364f6b;
 }
 
 nav ul {

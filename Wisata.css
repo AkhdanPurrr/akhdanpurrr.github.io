@@ -49,6 +49,8 @@ nav {
     position: -webkit-sticky;
     top: 0;
     background: white;
+    z-index: 1;
+    border: 1px solid #364f6b;
 }
 
 nav ul {
@@ -94,5 +96,11 @@ nav ul li a:hover {
     nav .menu ul li {
        display: inline-block;
        float: none;
+    }
+    .main {
+        display: block;
+    }
+    .main img {
+        display: block;
     }
 }
